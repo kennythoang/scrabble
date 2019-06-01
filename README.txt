@@ -1,15 +1,4 @@
-=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
-CIS 120 Game Project README
-PennKey: kthoang_______
-=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
-
-===================
-=: Core Concepts :=
-===================
-
-- List the four core concepts, the features they implement, and why each feature
-  is an appropriate use of the concept. Incorporate the feedback you got after
-  submitting your proposal.
+This is an implementation of the popular board game Scrabble I made for my final project in CIS120, Fall 2018. It utilizes the following four core concepts from the course:
 
   1. 2-D arrays: There is a 15 x 15 2d array of board spaces, that stores the current state of that 
   space. The 2-d array is thus able to be looped through for the game logic, as the created board
@@ -34,12 +23,9 @@ PennKey: kthoang_______
   as other Scrabble tasks (drawing tiles). 
 
 
-=========================
-=: Your Implementation :=
-=========================
-
-- Provide an overview of each of the classes in your code, and what their
+  Here's an overview of each of the classes in your code, and what their
   function is in the overall game.
+  
   Space: enum for different multipliers a board space could be (double letter, etc).
   BoardSpace: Object that makes up the actually board. Can draw itself, handle location, what the 
   space (multiplier) is, if any, and the tile that is on it, if any.
@@ -58,22 +44,4 @@ PennKey: kthoang_______
   is and the appropriate score, and when the game is over determines and produces the winner
   and high scores. 
 
-
-- Were there any significant stumbling blocks while you were implementing your
-  game (related to your design, or otherwise)?
-  Scoring was an issue, but just had to get clever with array manipulation.
-
-
-- Evaluate your design. Is there a good separation of functionality? How well is
-  private state encapsulated? What would you refactor, if given the chance?
-The makeMove function is too large and clunky. Could've refactored it significantly into smaller
-parts and helper functions that I could then call. Would've made it easier for testing. Overall 
-though the design was decent and I felt I made the right calls in data structures used.
-
-
-========================
-=: External Resources :=
-========================
-
-- Cite any external resources (libraries, images, tutorials, etc.) that you may
-  have used while implementing your game.
+To execute the game, run the Game.java file. 
