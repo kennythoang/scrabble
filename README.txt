@@ -1,4 +1,5 @@
-This is an implementation of the popular board game Scrabble I made for my final project in CIS120, Fall 2018. It utilizes the following four core concepts from the course:
+This is an implementation of the popular board game Scrabble I made for my final project in CIS120, Fall 2018. 
+It utilizes the following four core concepts from the course:
 
   1. 2-D arrays: There is a 15 x 15 2d array of board spaces, that stores the current state of that 
   space. The 2-d array is thus able to be looped through for the game logic, as the created board
